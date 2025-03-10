@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './IDEMentorBot.css';
 
 // Configure the API URL from environment variables
-const API_URL = process.env.REACT_APP_API_URL || 'https://ide-mentor-bot-api.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL || 'https://bot-backend-9uxp.onrender.com';
 const MAX_FILE_SIZE = 50 * 1024 * 1024; // 50MB limit
 
 function IDEMentorBot() {
